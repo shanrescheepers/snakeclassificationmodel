@@ -1,6 +1,7 @@
 
 ![Accuracy Evidence](https://github.com/shanrescheepers/snakeclassificationmodel/blob/master/Images/prediction_accuracy_metrics.png)
 
+![snake-class](https://github.com/shanrescheepers/snakeclassificationmodel/blob/master/Images/snake-class.png)
 
 # Venomous & Nonvenomous Snake AI Image Classifier
 ## Overview
