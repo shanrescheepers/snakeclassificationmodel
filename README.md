@@ -13,11 +13,14 @@ This model was inspired by the challenges of differentiating between venomous & 
 
 ## Usage & Installation:
 1) Create account on [Roboflow](https://roboflow.com/) and read the documentation.
+
 2) [Go to my Roboflow Project to access my dataset](https://universe.roboflow.com/shanr-scheepers) .
 
 3) Follow the set of code found in the link.
 
-4) Here is a [Google Colab Session](https://colab.research.google.com/github/shanrescheepers/snakeclassificationmodel/blob/master/RSASnakeClassifications.ipynb) if you're seeking my python implementation.
+4) Retrieve your own API-key and add it to .ipynb file
+
+5) Here is a [Google Colab Session](https://colab.research.google.com/github/shanrescheepers/snakeclassificationmodel/blob/master/RSASnakeClassifications.ipynb) if you're seeking my python implementation.
 
 Use this in your project!
 ```bash
