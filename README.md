@@ -4,25 +4,35 @@
 
 # Venomous & Nonvenomous Snake AI Image Classifier
 ## Overview
-This Python-based AI image classification model has been trained to distinguish between venomous and nonvenomous snakes. The model was created using Roboflow for data preprocessing and Google Colab for training for those who cannot afford a GPU or utilising a heavy duty device. The dataset used for training primarily includes images of Southern African local snake species.
+This Python-based AI image classification model has been trained to distinguish between venomous and nonvenomous snakes. The model was created using Roboflow sdk for data preprocessing and Google Colab with python code for training for those who cannot afford a GPU or utilising a heavy duty device. The dataset used for training primarily includes images of Southern African local snake species.
 This model was inspired by the challenges of differentiating between venomous & nonvenomous snakes in my local wildlife area.
 
+THE BIGGEST MOTIVATER WHY I USED ROBOFLOW:
+- It's easy to use. It has a nice developer experience.
+- It's basically a model training IDE, where everything from labelling, classificatoin to validation is done.
+- It's a SHARING model & workspace Platform.
+- It gives me all the tools I need without reinventing the wheel for object detection/classification.
+
 ### Features
-- Classifies snake images into two categories: "Venomous" and "Nonvenomous."
-- Achieves high accuracy in distinguishing between venomous and nonvenomous snake species.
+- Classifies snake images into two categories: "Venomous" and "Nonvenomous" after image detection.
+- Achieves high accuracy in distinguishing between venomous and nonvenomous snake species. Accuracy over .50!
 
 ## Usage & Installation:
 1) Create account on [Roboflow](https://roboflow.com/) and read the documentation.
 
-2) [Go to my Roboflow Project to access my dataset](https://universe.roboflow.com/shanr-scheepers) .
+2) [Go to my Roboflow Project to access and download my dataset](https://universe.roboflow.com/shanr-scheepers) //
+[Snake-Class-dataset](https://universe.roboflow.com/shanr-scheepers/snake-class)
 
-3) Follow the set of code found in the link.
 
-4) Retrieve your own API-key and add it to .ipynb file
+3) Follow the set of code found in the link to test, download or how to use the set in your own project with Python, Java or Swift.
 
-5) Here is a [Google Colab Session](https://colab.research.google.com/github/shanrescheepers/snakeclassificationmodel/blob/master/RSASnakeClassifications.ipynb) if you're seeking my python implementation.
+4) [Try deployed dataset on your account/machine documentation](https://inference.roboflow.com/quickstart/explore_models/#run-a-private-fine-tuned-model) 
 
-Use this in your project!
+5) Retrieve your own API-key and add it to .ipynb file to test and use the model. [How to retrieve API](https://docs.roboflow.com/api-reference/authentication)
+
+6) Here is a [Google Colab Session](https://colab.research.google.com/github/shanrescheepers/snakeclassificationmodel/blob/master/RSASnakeClassifications.ipynb) if you're seeking my python implementation.
+
+Have fun using it in your project!
 ```bash
 #To Clone the repository:
 git clone https://github.com/shanrescheepers/snakeclassificationmodel.git
